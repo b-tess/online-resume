@@ -1,0 +1,61 @@
+body {
+    font-family: Montserrat, serif;
+    background-image: url('./images/olga-thelavart-vS3idIiYxX0-unsplash.jpg');
+    background-repeat: repeat;
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+p,
+li {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    box-shadow: 0px 3px 5px slategray;
+}
+
+.name-and-title-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: max-content;
+}
+
+.name-and-title-container h1 {
+    margin-bottom: 0;
+}
+
+.name-and-title-container h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.skills-courses-edu {
+    width: 40%;
+    float: left;
+    box-shadow: inset -5px 0 7px -5px slategray;
+}
+
+.skills-courses-edu ul {
+    padding: 5px;
+}
+
+.skills-courses-edu li {
+    list-style-type: none;
+    margin-bottom: 7px;
+}

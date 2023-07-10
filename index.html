@@ -6,20 +6,51 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
+        <!-- Load the font family to use in the document. -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Montserrat:300;400;500&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="./index.css"
+        />
+        <script
+            src="https://kit.fontawesome.com/291212ce70.js"
+            crossorigin="anonymous"
+        ></script>
         <title>Online Resume</title>
     </head>
     <body>
-        <h1>My Resume</h1>
-        <img
-            src="./images/Resume-profile-picture.jpg"
-            alt="Resume Profile Picture"
-            height="200px"
-        />
-        <h2>Contact Details</h2>
-        <p>
-            I am available for contact through this
-            <a href="./contact.html">information</a>
-        </p>
+        <header>
+            <img
+                src="./images/Resume-profile-picture-edit.png"
+                alt="Resume Profile Picture"
+                height="200px"
+            />
+            <div class="name-and-title-container">
+                <h1>Barbara Tess Ndiba</h1>
+                <h3>Full-Stack Web Developer</h3>
+            </div>
+            <div class="contact-and-links">
+                <p><i class="fa fa-phone"></i>&nbsp;+254 123456789</p>
+                <p>
+                    <a href="mailto:barbaratessn@gmail.com"
+                        ><i class="fa fa-envelope"></i
+                        >&nbsp;barbaratessn@gmail.com</a
+                    >
+                </p>
+                <p>
+                    <a
+                        href="https://github.com/b-tess"
+                        target="_blank"
+                        rel="noopener"
+                        ><i class="fa fa-github"></i>&nbsp;GitHub</a
+                    >
+                </p>
+            </div>
+        </header>
+
         <h2>Summary</h2>
         <p>
             I am a self-taught full-stack programmer with a knack for and
@@ -27,13 +58,123 @@
             I am looking to join a team where the recently acquired knowledge
             and skills can be put to good use while also being furthered.
         </p>
-        <h2>Education</h2>
-        <ol>
-            <li>
-                Kenya Registered Community Health Nurse Diploma - Kenya Medical
-                Training College - 2007 to 2011.
-            </li>
-        </ol>
+        <aside class="skills-courses-edu">
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    HTML5 & CSS3 <br />
+                    <i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle-o fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>
+                </li>
+                <li>
+                    JavaScript <br />
+                    <i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle-o fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>
+                </li>
+                <li>
+                    Git <br />
+                    <i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle-o fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>
+                </li>
+                <li>
+                    React <br />
+                    <i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle-o fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>
+                </li>
+                <li>
+                    Express <br />
+                    <i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle-o fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>
+                </li>
+                <li>
+                    Node.js <br />
+                    <i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle-o fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>
+                </li>
+                <li>
+                    Firebase <br />
+                    <i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle-o fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>
+                </li>
+                <li>
+                    MongoDB <br />
+                    <i class="fa fa-circle fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>&nbsp;<i
+                        class="fa fa-circle-o fa-sm"
+                    ></i
+                    >&nbsp;<i class="fa fa-circle-o fa-sm"></i>
+                </li>
+            </ul>
+
+            <h2>Courses</h2>
+            <ul>
+                <li>
+                    The Complete 2023 Web Development Bootcamp <br />
+                    <strong>Dates:</strong> June 2023 - present. <br />
+                    <strong>Done at:</strong> Udemy
+                </li>
+                <li>
+                    React Front To Back <br />
+                    <strong>Dates:</strong> March 2023 - May 2023. <br />
+                    <strong>Done at:</strong> Udemy
+                </li>
+                <li>
+                    The Complete Node.js Course <br />
+                    <strong>Dates:</strong> February 2023 - April 2023. <br />
+                    <strong>Done at:</strong> Code with Mosh.
+                </li>
+                <li>
+                    CS50's Introduction To Computer Science <br />
+                    <strong>Dates:</strong> Nov 2021 - Aug 2022. <br />
+                    <strong>Done at:</strong> Harvard University.
+                </li>
+            </ul>
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    Kenya Registered Community Health Nurse Diploma - Kenya
+                    Medical Training College - 2007 to 2011.
+                </li>
+            </ul>
+        <aside/>
+
         <h2>Work experience</h2>
         <ol>
             <li>
@@ -120,41 +261,7 @@
                 </ul>
             </li>
         </ol>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Git</li>
-            <li>React</li>
-            <li>Express</li>
-            <li>Node.js</li>
-            <li>Firebase</li>
-            <li>MongoDB</li>
-        </ul>
-        <h2>Courses</h2>
-        <ul>
-            <li>
-                The Complete 2023 Web Development Bootcamp <br />
-                <strong>Dates:</strong> June 2023 - present. <br />
-                <strong>Done at:</strong> Udemy
-            </li>
-            <li>
-                React Front To Back <br />
-                <strong>Dates:</strong> March 2023 - May 2023. <br />
-                <strong>Done at:</strong> Udemy
-            </li>
-            <li>
-                The Complete Node.js Course <br />
-                <strong>Dates:</strong> February 2023 - April 2023. <br />
-                <strong>Done at:</strong> Code with Mosh.
-            </li>
-            <li>
-                CS50's Introduction To Computer Science <br />
-                <strong>Dates:</strong> Nov 2021 - Aug 2022. <br />
-                <strong>Done at:</strong> Harvard University.
-            </li>
-        </ul>
+
         <footer>
             Copyright &copy; Barbara Tess Ndiba - All Rights Reserved.
         </footer>
