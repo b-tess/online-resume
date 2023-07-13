@@ -115,6 +115,9 @@ ul,
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 7px;
     border-radius: 10px;
@@ -127,8 +130,6 @@ ul,
 }
 
 button {
-    position: relative;
-    left: 25%;
     background-color: aliceblue;
     color: rgba(0, 0, 0, 0.8);
     padding: 5px;
