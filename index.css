@@ -66,7 +66,9 @@ ul {
     padding: 5px;
 }
 
-.work-experience, .skills-courses-edu, footer {
+.work-experience,
+.skills-courses-edu,
+footer {
     padding-left: 15px;
 }
 
