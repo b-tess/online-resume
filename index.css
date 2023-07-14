@@ -59,14 +59,15 @@ main {
 
 .skills-courses-edu {
     min-width: 40%;
-    padding: 5px;
     box-shadow: inset -5px 0 7px -5px slategray;
 }
 
-ul,
-.work-experience > h2,
-.work-experience > p {
+ul {
     padding: 5px;
+}
+
+.work-experience, .skills-courses-edu, footer {
+    padding-left: 15px;
 }
 
 .skills-courses-edu li,
