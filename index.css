@@ -79,6 +79,11 @@ ul,
     text-decoration: underline;
 }
 
+ul[class='description'] li {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
 /* Slider feature style */
 .left-cover {
     width: 50%;
@@ -163,6 +168,12 @@ button {
     }
     .contact-and-links i {
         display: block;
+    }
+    main {
+        display: flow-root;
+    }
+    .skills-courses-edu {
+        box-shadow: none;
     }
     .slider-feature-container {
         top: 10%;
