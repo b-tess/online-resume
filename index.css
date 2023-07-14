@@ -9,6 +9,7 @@ body {
     background-repeat: repeat;
     margin: 0;
     position: relative;
+    overflow-x: hidden;
 }
 
 h1,
