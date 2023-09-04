@@ -63,12 +63,18 @@ main {
     box-shadow: inset -5px 0 7px -5px slategray;
 }
 
+.experience-and-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     padding: 5px;
 }
 
 .work-experience,
 .skills-courses-edu,
+.more-info,
 footer {
     padding-left: 15px;
 }
@@ -86,6 +92,23 @@ footer {
 ul[class='description'] li {
     list-style-type: circle;
     margin-left: 20px;
+}
+
+.qr-img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 120px;
+}
+
+/* Style the footer */
+footer {
+    margin-top: 10px;
+    box-shadow: 0px -1px 2px slategrey;
+}
+
+#webpage-link {
+    text-decoration: underline 0.5px;
 }
 
 /* Slider feature style */

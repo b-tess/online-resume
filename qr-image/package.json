@@ -1,0 +1,15 @@
+{
+  "name": "qr-image",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Generate a qr image for use in the resume linking to the website",
+  "main": "website-qr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Barbara Tess",
+  "license": "ISC",
+  "dependencies": {
+    "qr-image": "^3.2.0"
+  }
+}
